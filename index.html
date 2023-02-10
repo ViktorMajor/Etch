@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch a sketch </title>
+  <link rel="stylesheet" href="etch.css">
+</head>
+<body>
+
+<herader>
+  <h1>Etch A sketch</h1>
+  <p class="head-p">Rajzolj kedvedre</p>
+</herader>
+
+<main>
+  <nav class="nav">
+      <h2 >Beállítások</h2>
+      <div class="btn">
+        <p>Rács méret</p>
+        <button onclick="kicsi()" class="size s">Kicsi</button>
+        <button onclick="kozep()" class="size m">Közrpes</button>
+        <button onclick="nagy()" class="size l">Nagy</button>
+      </div>
+      <div class="mode-controls">
+        <p>Stilus</p>
+        <button onclick="classic()" class="F">Fekete</button>
+        <button onclick="szin()"class="Sz">Színes</button>
+        <button onclick="rad()"class="Sz">Radir</button>
+      </div>
+      <div class="tdiv"> 
+        <button onclick="torl()"class="t">Törlés</button>
+      </div>
+  </nav>
+
+  <div id="con">
+    <div><p class="rajz">Rajzolo felulet</p></div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Készítette: Major Viktor</p>
+</footer>
+<script src="etch.js"></script> 
+
+</body>
+
+</html>
